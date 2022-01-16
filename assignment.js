@@ -33,6 +33,9 @@ function hotelCost(days) {
 // console.log(hotelCost(71));
 
 function megaFriend(arr) {
+    if(arr.length==0){
+        return null;
+    }
     var amount = arr.length;
     var mega_index = 0;
     var mega_size = arr[0].length;
@@ -45,7 +48,7 @@ function megaFriend(arr) {
     return arr[mega_index]
 }
 
-// var friend_list=['ami','also ami','etao ami','eta sobche boro ami','xd'];
+// var friend_list=[];
 // console.log(megaFriend(friend_list));
 
 
